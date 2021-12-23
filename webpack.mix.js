@@ -13,8 +13,8 @@ require('laravel-mix-artisan-serve');
  */
 
 mix.webpackConfig({
-        resolve :{
-            modules :[
+        module :{
+            rules :[
                 {
                     test : /\.scss/,
                     loader : "import-glob-loader"
