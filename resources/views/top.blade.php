@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello World</p>
+    <div class="l-container" id="app">
+       <top-component></top-component>
+    </div>
 </body>
+<script src="{{ asset('js/app.js') }}"></script>
 </html>
