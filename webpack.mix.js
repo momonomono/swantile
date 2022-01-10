@@ -25,9 +25,7 @@ mix.webpackConfig({
     .sass("resources/sass/app.scss","public/css")
     .js("resources/js/app.js","public/js")
     .browserSync({
-        proxy:{
-            target : "http://127.0.0.1:8000"
-        },
+        proxy:"http://127.0.0.1:8000",
         files :[
             "app/**",
             "resources/**",
