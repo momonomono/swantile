@@ -16,3 +16,5 @@
 // });
 
 Route::get('/','MainController@top');
+
+Route::get('/todo','MainController@todo');

@@ -463,6 +463,20 @@ th {
   padding: 1100px 30px;
 }
 
+.c-card__todo {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 500px;
+  background-color: #a6f5ff;
+  padding: 20px;
+}
+
+.c-card__todo_list {
+  height: 30px;
+  background: red;
+}
+
 .c-text__number {
   font-size: 28px;
   color: #9f9f9f;
@@ -476,6 +490,15 @@ th {
 .c-text__sitename {
   font-size: 26px;
   color: #9f9f9f;
+}
+
+.c-text__title {
+  font-size: 30px;
+  color: #9f9f9f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-card {
@@ -503,12 +526,28 @@ th {
   margin-right: 10px;
 }
 
+.u-pt-10 {
+  padding-top: 10px;
+}
+
+.u-pl-10 {
+  padding-left: 10px;
+}
+
 .u-mt-20 {
   margin-top: 20px;
 }
 
 .u-mr-20 {
   margin-right: 20px;
+}
+
+.u-pt-20 {
+  padding-top: 20px;
+}
+
+.u-pl-20 {
+  padding-left: 20px;
 }
 
 .u-mt-30 {
@@ -519,12 +558,28 @@ th {
   margin-right: 30px;
 }
 
+.u-pt-30 {
+  padding-top: 30px;
+}
+
+.u-pl-30 {
+  padding-left: 30px;
+}
+
 .u-mt-40 {
   margin-top: 40px;
 }
 
 .u-mr-40 {
   margin-right: 40px;
+}
+
+.u-pt-40 {
+  padding-top: 40px;
+}
+
+.u-pl-40 {
+  padding-left: 40px;
 }
 
 .u-mt-50 {
@@ -535,12 +590,28 @@ th {
   margin-right: 50px;
 }
 
+.u-pt-50 {
+  padding-top: 50px;
+}
+
+.u-pl-50 {
+  padding-left: 50px;
+}
+
 .u-mt-60 {
   margin-top: 60px;
 }
 
 .u-mr-60 {
   margin-right: 60px;
+}
+
+.u-pt-60 {
+  padding-top: 60px;
+}
+
+.u-pl-60 {
+  padding-left: 60px;
 }
 
 .u-mt-70 {
@@ -551,12 +622,28 @@ th {
   margin-right: 70px;
 }
 
+.u-pt-70 {
+  padding-top: 70px;
+}
+
+.u-pl-70 {
+  padding-left: 70px;
+}
+
 .u-mt-80 {
   margin-top: 80px;
 }
 
 .u-mr-80 {
   margin-right: 80px;
+}
+
+.u-pt-80 {
+  padding-top: 80px;
+}
+
+.u-pl-80 {
+  padding-left: 80px;
 }
 
 .u-mt-90 {
@@ -567,11 +654,27 @@ th {
   margin-right: 90px;
 }
 
+.u-pt-90 {
+  padding-top: 90px;
+}
+
+.u-pl-90 {
+  padding-left: 90px;
+}
+
 .u-mt-100 {
   margin-top: 100px;
 }
 
 .u-mr-100 {
   margin-right: 100px;
+}
+
+.u-pt-100 {
+  padding-top: 100px;
+}
+
+.u-pl-100 {
+  padding-left: 100px;
 }
 

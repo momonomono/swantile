@@ -6,4 +6,12 @@
     .u-mr-#{$i*10}{
         margin-right:10px * $i;
     }
+
+    .u-pt-#{$i*10}{
+        padding-top:10px*$i;
+    }
+
+    .u-pl-#{$i*10}{
+        padding-left:10px*$i;
+    }
 }

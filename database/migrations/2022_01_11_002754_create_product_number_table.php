@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSampleDataTable extends Migration
+class CreateProductNumberTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,10 @@ class CreateSampleDataTable extends Migration
      */
     public function up()
     {
-        Schema::create('sample_data', function (Blueprint $table) {
+        Schema::create('product_number', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->date('date');
             $table->string('number');
-            $table->date('deadline');
-            $table->integer('manager_id');
-            $table->string('required_number');
-            $table->string('shapes');
-            $table->integer('company_id');
-            $table->string('site_name');
-            $table->string('contents');
             $table->timestamps();
         });
     }
@@ -34,6 +28,6 @@ class CreateSampleDataTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sample_data');
+        Schema::dropIfExists('product_number');
     }
 }

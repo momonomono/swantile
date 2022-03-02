@@ -1,9 +1,9 @@
 @extends('layouts.layout')
 
-@section('title','トップページ')
+@section('title','TODOリスト')
 
 @section('body')
     <div class="l-container" id="app">
-       <top-component></top-component>
+       <todo-component></todo-component>
     </div>
 @endsection
