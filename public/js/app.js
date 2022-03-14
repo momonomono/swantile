@@ -1915,6 +1915,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -19632,9 +19644,35 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "l-header" }, [_vm._v("\n    Header\n")])
+  return _c("header", { staticClass: "l-header p-header" }, [
+    _c("div", { staticClass: "l-header__container" }, [
+      _c("section", { staticClass: "p-header__main" }, [
+        _c("img", {
+          staticClass: "c-image__logo",
+          attrs: { src: "img/swanstyle.png" },
+        }),
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+    ]),
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ul", { staticClass: "p-header__nav" }, [
+      _c("li", [_vm._v("Home")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("コース")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("予約")]),
+      _vm._v(" "),
+      _c("li", [_vm._v("お問い合わせ")]),
+    ])
+  },
+]
 render._withStripped = true
 
 
@@ -32077,7 +32115,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \";\".\n  ╷\n1 │ @import \"layout/l-header.scss\"\n  │                               ^\n  ╵\n  /Users/nitto_wakao/Desktop/swantile/resources/sass/app.scss 1:31  root stylesheet\n    at /Users/nitto_wakao/Desktop/swantile/node_modules/webpack/lib/NormalModule.js:316:20\n    at /Users/nitto_wakao/Desktop/swantile/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Users/nitto_wakao/Desktop/swantile/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Users/nitto_wakao/Desktop/swantile/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at /Users/nitto_wakao/Desktop/swantile/node_modules/sass-loader/dist/index.js:73:7\n    at Function.call$2 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:98993:16)\n    at render_closure1.call$2 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:84511:12)\n    at _RootZone.runBinary$3$3 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:29540:18)\n    at _FutureListener.handleError$1 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:28062:21)\n    at _Future__propagateToListeners_handleError.call$0 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:28369:49)\n    at Object._Future__propagateToListeners (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:3901:77)\n    at _Future._completeError$2 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:28215:9)\n    at _AsyncAwaitCompleter.completeError$2 (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:27863:12)\n    at Object._asyncRethrow (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:3704:17)\n    at /Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:19766:20\n    at _wrapJsFunctionForAsync_closure.$protected (/Users/nitto_wakao/Desktop/swantile/node_modules/sass/sass.dart.js:3729:15)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 

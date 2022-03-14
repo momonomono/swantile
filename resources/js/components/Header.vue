@@ -1,12 +1,24 @@
 <template>
+    <header class="l-header p-header">
+        <div class="l-header__container">
 
-    <div class="l-header">
-        Header
-    </div>
+            <section class="p-header__main">
+                <img :src="'img/swanstyle.png'" class="c-image__logo">
+
+            </section>
+
+            <ul class="p-header__nav">
+                <li>Home</li>
+                <li>コース</li>
+                <li>予約</li>
+                <li>お問い合わせ</li>
+            </ul>
+        </div>
+    </header>
 </template>
 
 <script>
     export default{
-
+        
     }
 </script>

@@ -1,7 +1,6 @@
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 
 /* Reset box-model and set borders */
-
 /* ============================================ */
 
 *,
@@ -13,7 +12,6 @@
 }
 
 /* Document */
-
 /* ============================================ */
 
 /**
@@ -23,16 +21,12 @@
  */
 
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-tap-highlight-color: transparent;
-  /* 3*/
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-tap-highlight-color: transparent; /* 3*/
 }
 
 /* Sections */
-
 /* ============================================ */
 
 /**
@@ -52,7 +46,6 @@ main {
 }
 
 /* Vertical rhythm */
-
 /* ============================================ */
 
 p,
@@ -68,7 +61,6 @@ dl {
 }
 
 /* Headings */
-
 /* ============================================ */
 
 h1,
@@ -83,7 +75,6 @@ h6 {
 }
 
 /* Lists (enumeration) */
-
 /* ============================================ */
 
 ul,
@@ -94,7 +85,6 @@ ol {
 }
 
 /* Lists (definition) */
-
 /* ============================================ */
 
 dt {
@@ -106,7 +96,6 @@ dd {
 }
 
 /* Grouping content */
-
 /* ============================================ */
 
 /**
@@ -115,12 +104,9 @@ dd {
  */
 
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
   border-top-width: 1px;
   margin: 0;
   clear: both;
@@ -133,10 +119,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: inherit;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
 }
 
 address {
@@ -144,7 +128,6 @@ address {
 }
 
 /* Text-level semantics */
-
 /* ============================================ */
 
 /**
@@ -163,9 +146,7 @@ a {
  */
 
 abbr[title] {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -185,10 +166,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: inherit;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: inherit; /* 2 */
 }
 
 /**
@@ -221,7 +200,6 @@ sup {
 }
 
 /* Replaced content */
-
 /* ============================================ */
 
 /**
@@ -237,7 +215,6 @@ iframe {
 }
 
 /* Forms */
-
 /* ============================================ */
 
 /**
@@ -251,10 +228,8 @@ input,
 optgroup,
 select,
 textarea {
-  -webkit-appearance: none;
-  /* 1 */
-  -moz-appearance: none;
-       appearance: none;
+  -webkit-appearance: none; /* 1 */
+  appearance: none;
   vertical-align: middle;
   color: inherit;
   font: inherit;
@@ -263,24 +238,21 @@ textarea {
   margin: 0;
   border-radius: 0;
   text-align: inherit;
-  text-transform: inherit;
-  /* 2 */
+  text-transform: inherit; /* 2 */
 }
 
 /**
  * Reset radio and checkbox appearance to preserve their look in iOS.
  */
 
-[type=checkbox] {
+[type="checkbox"] {
   -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
-       appearance: checkbox;
+  appearance: checkbox;
 }
 
-[type=radio] {
+[type="radio"] {
   -webkit-appearance: radio;
-  -moz-appearance: radio;
-       appearance: radio;
+  appearance: radio;
 }
 
 /**
@@ -288,16 +260,16 @@ textarea {
  */
 
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   cursor: pointer;
 }
 
 button:disabled,
-[type=button]:disabled,
-[type=reset]:disabled,
-[type=submit]:disabled {
+[type="button"]:disabled,
+[type="reset"]:disabled,
+[type="submit"]:disabled {
   cursor: default;
 }
 
@@ -355,8 +327,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -364,16 +336,15 @@ textarea {
  * 1. Correct the outline style in Safari.
  */
 
-[type=search] {
-  outline-offset: -2px;
-  /* 1 */
+[type="search"] {
+  outline-offset: -2px; /* 1 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -383,10 +354,8 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /**
@@ -398,7 +367,6 @@ label[for] {
 }
 
 /* Interactive */
-
 /* ============================================ */
 
 /*
@@ -426,7 +394,6 @@ summary {
 }
 
 /* Tables */
-
 /* ============================================ */
 
 /**
@@ -434,8 +401,7 @@ summary {
 */
 
 table {
-  border-color: inherit;
-  /* 1 */
+  border-color: inherit; /* 1 */
   border-collapse: collapse;
 }
 
@@ -453,24 +419,3 @@ th {
   text-align: left;
   font-weight: bold;
 }
-
-.l-header__container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.c-image__logo {
-  height: 40px;
-}
-
-.p-header {
-  background: #fcfa79;
-  height: 80px;
-}
-
-.p-header__main {
-  height: 80px;
-  display: flex;
-  align-items: center;
-}
-
