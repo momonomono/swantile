@@ -17,4 +17,4 @@
 
 Route::get('/','MainController@top');
 
-Route::get('/todo','MainController@todo');
+Route::get('/reserve','MainController@reserve');
