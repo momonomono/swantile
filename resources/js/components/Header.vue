@@ -6,14 +6,14 @@
                 <img :src="'img/swanstyle.png'" class="c-image__logo">
 
             </section>
-
-            <ul class="p-header__nav">
-                <li>Home</li>
-                <li>コース</li>
-                <li>予約</li>
-                <li>お問い合わせ</li>
-            </ul>
         </div>
+
+        <ul class="">
+            <li>Home</li>
+            <li>コース</li>
+            <li>予約</li>
+            <li>お問い合わせ</li>
+        </ul>
     </header>
 </template>
 

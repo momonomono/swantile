@@ -19652,9 +19652,9 @@ var render = function () {
           attrs: { src: "img/swanstyle.png" },
         }),
       ]),
-      _vm._v(" "),
-      _vm._m(0),
     ]),
+    _vm._v(" "),
+    _vm._m(0),
   ])
 }
 var staticRenderFns = [
@@ -19662,7 +19662,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "p-header__nav" }, [
+    return _c("ul", {}, [
       _c("li", [_vm._v("Home")]),
       _vm._v(" "),
       _c("li", [_vm._v("コース")]),
