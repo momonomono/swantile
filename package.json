@@ -34,5 +34,14 @@
     "test": "tests"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momonomono/swantile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/momonomono/swantile/issues"
+  },
+  "homepage": "https://github.com/momonomono/swantile#readme"
 }

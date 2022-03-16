@@ -1,0 +1,23 @@
+.c-text{
+
+    &__number{
+        font-size:28px;
+        color:$color-text__main;
+    }
+
+    &__item{
+        font-size:20px;
+        color:$color-text__main;
+    }
+
+    &__sitename{
+        font-size:26px;
+        color:$color-text__main;
+    }
+
+    &__title{
+        font-size:30px;
+        color:$color-text__main;
+        user-select: none;
+    }
+}

@@ -1,0 +1,13 @@
+.p-card{
+    width:100%;
+    background:$color-bg__main;
+    padding:10px 30px;
+    border-radius: 10px;
+
+    &__sub{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}

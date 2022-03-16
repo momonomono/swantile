@@ -10,4 +10,9 @@ class MainController extends Controller
 
         return view("top");
     }
+    
+    public function reserve(){
+
+        return view("reserve");
+    }
 }

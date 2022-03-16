@@ -3,6 +3,7 @@
 @section('title','トップページ')
 
 @section('body')
-    
-        <top-component></top-component>
+    <div class="l-container" id="app">
+       <top-component></top-component>
+    </div>
 @endsection
