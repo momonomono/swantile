@@ -3,9 +3,7 @@
 @section('title','予約フォーム')
 
 @section('body')
-    <div>
-        <form>
-            <input>
-        </form>
+    <div class="l-container" id="app">
+        <reserve-component></reserve-component>
     </div>
 @endsection
