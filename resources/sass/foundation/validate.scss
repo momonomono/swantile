@@ -1,4 +1,20 @@
-$color-bg__main:rgb(166, 245, 255);
-$color-bg__form:#bed5ff;
+$color-bg__main: #a37e32;
+$color-bg__title:#398da7;
+$color-bg__form:#ffffff;
+$color-bg__body:#fdf4df;
 
-$color-text__main:#9f9f9f;
+$color-text__main:#0e0e0e;
+$color-text__title:#ffffff;
+$color-text__primary:#ffffff;
+
+$font-family__title:'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+
+
+@mixin userSerect{
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-drag:none;
+    -khtml-user-drag:none;
+}

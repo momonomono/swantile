@@ -1,0 +1,18 @@
+.c-input{
+
+    &__form{
+        
+
+        &_button{
+            background:$color-bg__main;
+            color:#ffffff;
+            display:block;
+            width:50%;
+            max-width:200px;
+            font-size:16px;
+            font-weight:bold;
+            text-align: center;
+            margin:0 auto;
+        }
+    }
+}

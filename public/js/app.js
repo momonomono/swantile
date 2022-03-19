@@ -1915,6 +1915,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     title: String
@@ -1933,6 +1937,11 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Label_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Label.vue */ "./resources/js/components/Label.vue");
+//
+//
+//
+//
+//
 //
 //
 //
@@ -19668,9 +19677,11 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("label", { staticClass: "c-card__label u-mb-30" }, [
-    _c("p", [_vm._v(_vm._s(_vm.title))]),
+    _c("p", { staticClass: "u-mb-10 p-text__label" }, [
+      _vm._v("\n        " + _vm._s(_vm.title) + "\n    "),
+    ]),
     _vm._v(" "),
-    _c("input", { staticClass: "p-input__form" }),
+    _c("input", { staticClass: "p-input__form", attrs: { type: "text" } }),
   ])
 }
 var staticRenderFns = []
@@ -19697,21 +19708,28 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "l-form" }, [
     _c("section", { staticClass: "p-card__form" }, [
-      _c("h2", {}, [_vm._v("予約フォーム")]),
+      _c("h2", { staticClass: "p-text__title" }, [_vm._v("予約フォーム")]),
       _vm._v(" "),
-      _c(
-        "form",
-        [
-          _c("Label", { attrs: { title: "お名前" } }),
-          _vm._v(" "),
-          _c("Label", { attrs: { title: "お名前フリガナ" } }),
-          _vm._v(" "),
-          _c("Label", { attrs: { title: "電話番号" } }),
-          _vm._v(" "),
-          _c("Label", { attrs: { title: "メールアドレス" } }),
-        ],
-        1
-      ),
+      _c("form", [
+        _c(
+          "div",
+          { staticClass: "u-mt-50" },
+          [
+            _c("Label", { attrs: { title: "お名前" } }),
+            _vm._v(" "),
+            _c("Label", { attrs: { title: "お名前(フリガナ)" } }),
+            _vm._v(" "),
+            _c("Label", { attrs: { title: "電話番号" } }),
+            _vm._v(" "),
+            _c("Label", { attrs: { title: "メールアドレス" } }),
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("button", { staticClass: "p-input__button c-input__form_button" }, [
+          _vm._v("\n                    予約\n                "),
+        ]),
+      ]),
     ]),
   ])
 }

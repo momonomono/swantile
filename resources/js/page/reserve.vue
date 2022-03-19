@@ -1,28 +1,33 @@
 <template>
     <div class="l-form">
         <section class="p-card__form">
-            <h2 class="">予約フォーム</h2>
 
-            <form>
-                
-                <Label 
-                    title = "お名前"
-                />
+            <h2 class="p-text__title">予約フォーム</h2>
 
-                <Label 
-                    title = "お名前フリガナ"
-                />
+                <form>
+            <div class="u-mt-50">
+                    <Label 
+                        title = "お名前"
+                    />
 
-                <Label 
-                    title = "電話番号"
-                />
+                    <Label 
+                        title = "お名前(フリガナ)"
+                    />
 
-                <Label 
-                    title = "メールアドレス"
-                />
+                    <Label 
+                        title = "電話番号"
+                    />
 
+                    <Label 
+                        title = "メールアドレス"
+                    />
 
-            </form>
+            </div>    
+                    <button class="p-input__button c-input__form_button">
+                        予約
+                    </button>
+                </form>
+
         </section>
     </div>
 </template>

@@ -1,4 +1,18 @@
 .p-text{
 
-    
+    &__title{
+        display: inline-block;
+        font-size:36px;
+        padding:5px 40px;
+        border-radius: 5px;
+        color:$color-text__title;
+        background:$color-bg__main;
+        font-family: $font-family__title;
+        @include userSerect;
+    }
+
+    &__label{
+        font-size:14px;
+        color:$color-text__main;
+    }
 }
