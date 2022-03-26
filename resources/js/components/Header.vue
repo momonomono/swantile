@@ -1,24 +1,40 @@
 <template>
     <header class="l-header p-header">
+
         <div class="l-header__container">
 
             <section class="p-header__main">
                 <img :src="'img/swanstyle.png'" class="c-image__logo">
 
+                <nav class="p-header__nav">
+                    <ul class="p-header__nav_main">
+                        <List title="トップページ" />
+                        <List title="メニュー" />
+                        <List title="よくある質問" />
+                    </ul>
+                </nav>
             </section>
+
         </div>
 
-        <ul class="">
-            <li>Home</li>
-            <li>コース</li>
-            <li>予約</li>
-            <li>お問い合わせ</li>
-        </ul>
+
     </header>
 </template>
 
 <script>
+    import List from "./Header/List.vue";
+
     export default{
-        
+        methods:{
+            hello(){
+                alert('Hello');
+            }
+        },
+        props :{
+            pageNumber : String
+        },
+        components :{
+            List
+        }
     }
 </script>
